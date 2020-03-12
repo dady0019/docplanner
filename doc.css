@@ -1,0 +1,154 @@
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #beabab;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.main-menu li {
+  padding: 0 8px 0 8px;
+}
+
+.dropdown-content li {
+  padding: 10px 0 0 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.lead__logo {
+  width: 50px;
+  height: 50px;
+}
+.intro-title {
+  color: #00bfa5;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 200px;
+  top: 25px;
+  left: -100px;
+}
+
+.para {
+  display: flex;
+  color: #beabab ;
+  margin: 100px;
+  top: 20px;
+  
+}
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    margin-top: -9px;
+}
+.first-card{
+    background: #5DD7C7;
+    width:500px;
+   margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.second-card{
+    background: #3D83DF;
+    width:500px;
+   margin: 20px;
+    border-radius: 8px;
+overflow: hidden;
+
+}
+.pic1{
+    padding-left: 209px;
+}
+.pic2{
+    padding-left: 209px;
+}
+
+.fourth-part{
+  display: flex;
+  background: #DAF7F6;
+}
+.flex{
+  display: flex;
+}
+.fourth-part-style{
+  justify-content: space-around;
+    background: ;
+    width: 1339px;
+    background: #D6F5F6;
+    display: flex;
+    overflow: hidden;
+}
+
+}
+.p-file_image_thumbnail__image{
+  position: relative;
+    top: 100px;
+}
+.grid-container {
+  
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+  width: 100px;
+  
+  
+}
+.style5{
+  align-items: center;
+}
+.grid-container2 {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  padding: 10px;
+  grid-row-gap:10px;
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid white(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.style-footer{
+  text-align: center;
+  
+
+}
+.modif{
+  display: flex;
+}
+
